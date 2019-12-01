@@ -1,0 +1,140 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+   
+}
+.body{
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+.header-box{
+    background-color: rgba(0,0, 0, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    font-size: 34px;
+    font-family: Stencil Std, fantasy;
+    text-shadow:  -1px 0 #000,
+    -1px -1px 0 #000,
+    -1px -1px 0 #000,
+    -1px -1px 0 #000;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+
+
+
+.task-box{
+  margin-top: 20px;
+  min-height: 75vh;
+    
+}
+
+.task-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.test{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 5px;
+    font-size: 34px;
+    color: white;
+    font-weight: 800;
+    text-shadow:  -1px 0 #000,
+    -1px -1px 0 #000,
+    -1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.test input{
+    font-size: 26px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.test button{
+    font-size: 26px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(87, 90, 131, 0.9);
+    color: white;
+    text-shadow:  -1px 0 #000,
+    -1px -1px 0 #000,
+    -1px -1px 0 #000,
+    -1px -1px 0 #000;
+    font-weight: 600;
+    
+  
+}
+
+.task-li-true{
+    border: 2px ;
+    padding: 5px;
+    background-color: rgba(97, 96, 96, 0.6);
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 24px;
+    font-family: Bradley Hand, cursive;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+.task-li-true button{
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgba(197, 13, 13, 0.9);;
+    color: white;
+    font-weight: 700;
+}
+
+.task-li-true input{
+   height: 24px;
+   width: 24px;
+   margin-left: 15px;
+   margin-top: 5px;
+}
+
+
+
+.footer-box{
+background-color: grey;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 10vh;
+}
+
+.task-li-true input:checked{
+    outline: 12px solid red;
+    outline-offset: -12px;
+    
+
+}
